@@ -3,6 +3,7 @@
 **A Blockchain-Backed Hierarchical EHR Model with Intelligent Graph Traversal**
 
 Research prototype — Illinois Institute of Technology
+
 Author: Om Amit Gandhi (ogandhi1@hawk.illinoistech.edu)
 
 ---
