@@ -1,6 +1,4 @@
-data/synthea.jar
-data/synthea_raw/
-data/synthea_processed/
+data/
 experiments/results/
 __pycache__/
 *.pyc
@@ -9,3 +7,4 @@ __pycache__/
 .claude/
 *.egg-info/
 .venv/
+venv/
