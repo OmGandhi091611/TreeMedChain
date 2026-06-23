@@ -394,6 +394,14 @@ Storing encrypted blobs on-chain is expensive and defeats the purpose of a hash 
 
 ---
 
+## Support
+
+If you find this project useful for your research, please consider giving it a star on GitHub — it helps others discover the work and motivates continued development.
+
+[![GitHub Stars](https://img.shields.io/github/stars/OmGandhi091611/TreeMedChain?style=social)](https://github.com/OmGandhi091611/TreeMedChain/stargazers)
+
+---
+
 ## Citation
 
 If you use this prototype in research or build on it, please cite:
