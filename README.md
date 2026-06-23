@@ -166,6 +166,20 @@ pip install -r requirements.txt
 
 ## Generate Synthetic Patient Data (one-time)
 
+> **Note:** `data/synthea.jar` is excluded from this repository because it exceeds GitHub's 100 MB file size limit (it is ~188 MB). Download it separately before running data generation.
+
+### Step 1 — Download Synthea
+
+```bash
+# Download the latest Synthea release JAR
+curl -L -o data/synthea.jar \
+  https://github.com/synthetichealth/synthea/releases/latest/download/synthea-with-dependencies.jar
+```
+
+Or go to https://github.com/synthetichealth/synthea/releases and download `synthea-with-dependencies.jar` manually into the `data/` folder.
+
+### Step 2 — Generate 573 patients
+
 ```bash
 mkdir -p data/synthea_raw
 java -jar data/synthea.jar \
@@ -176,6 +190,8 @@ java -jar data/synthea.jar \
 ```
 
 This produces `data/synthea_raw/csv/` containing `patients.csv`, `conditions.csv`, `medications.csv`, `procedures.csv`, and `observations.csv`.
+
+> Both `data/synthea.jar` and `data/synthea_raw/` are listed in `.gitignore` and are never committed to the repository.
 
 ---
 
